@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IT112 Form</title>
+</head>
+<body>
+    <div>
+        <form action="submit_form.php" method="POST">
+            <h1>IT112 Form</h1>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required minlength="2" maxlength="50">
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required minlength="2" maxlength="50">
+
+            <label for="food_choice">Which food would yuou like to eat</label>
+            <select id="food_choice" name="food_choice">
+                <option value="chicken">Chicken</option>
+                <option value="beef">Beef</option>
+                <option value="fish">Fish</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+            </select>
+            
+            <label for="allergies">Do you have any allergies?</label> 
+            <textarea id="allergies" name="allergies" rows="4" cols="50"></textarea>
+
+            <input type="submit" value="Submit"> 
+        </form>
+    </div>
+</body>
+</html>
