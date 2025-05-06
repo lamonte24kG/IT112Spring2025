@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: forestgreen;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    background-color: green;
+    color: pink;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
