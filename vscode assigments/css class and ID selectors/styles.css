@@ -1,0 +1,48 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+ol li:nth-child(1),
+ol li:nth-child(5)
+ {
+    color: crimson;
+}
+
+ol li:nth-child(2),
+ol li:nth-child(8)
+ {
+    color: green
+}
+
+ol li:nth-child(3) {
+    color: goldenrod;
+}
+
+ol li:nth-child(4),
+ol li:nth-child(6)
+ {
+    color: red;
+}
+
+ol li:nth-child(7) {
+    color: darkorange;
+}
+
+.btn_yes {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_no {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
